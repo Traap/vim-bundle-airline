@@ -2,6 +2,7 @@
 if exists('g:loaded_bundle_airline')
   finish
 endif
+let g:loaded_bundle_airline=1
 " -------------------------------------------------------------------------- }}}
 " {{{ Air line
 if !exists('g:airline_symbols')               " Use powerline fonts for airline
